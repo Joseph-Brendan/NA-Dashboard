@@ -1,5 +1,5 @@
 {
-  "name": "nazox",
+  "name": "na-dashboard",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
@@ -107,5 +107,21 @@
   },
   "resolutions": {
     "moment": "2.24.0"
-  }
+  },
+  "description": "Dashboard/Inventory for the Nigerian Army",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph-Brendan/NA-Dashboard.git"
+  },
+  "keywords": [
+    "Nigerian",
+    "Army"
+  ],
+  "author": "Migrant Solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joseph-Brendan/NA-Dashboard/issues"
+  },
+  "homepage": "https://github.com/Joseph-Brendan/NA-Dashboard#readme"
 }

@@ -103,7 +103,7 @@ class SidebarContent extends Component {
                             <li>
                                 <Link to="#" className=" waves-effect">
                                     <i className="ri-calendar-2-line"></i>
-                                    <span className="ml-1">{this.props.t('Calendar')}</span>
+                                    <span className="ml-1">{this.props.t('Nigerian Army')}</span>
                                 </Link>
                             </li>
 
