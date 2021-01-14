@@ -37,7 +37,7 @@ class MegaMenu extends Component {
                                                         <Link to="#">{this.props.t('Range Slider')}</Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="#">{this.props.t('Sweet Alert')}</Link>
+                                                        <Link to="#">{this.props.t('')}</Link>
                                                     </li>
                                                     <li>
                                                         <Link to="#">{this.props.t('Rating')}</Link>

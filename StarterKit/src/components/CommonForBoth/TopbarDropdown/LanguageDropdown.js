@@ -57,10 +57,7 @@ class LanguageDropdown extends Component {
     return (
       <React.Fragment>
                         <Dropdown isOpen={this.state.menu} toggle={this.toggle} className="d-none d-sm-inline-block">
-                            <DropdownToggle tag="button" className="btn header-item waves-effect">
-                                <img className="" src={this.state.flag} alt="Header Language" height="16"/>{'  '}
-                                <span className="align-middle">{this.state.lng}</span>
-                            </DropdownToggle>
+                            
 
                             <DropdownMenu right>
 

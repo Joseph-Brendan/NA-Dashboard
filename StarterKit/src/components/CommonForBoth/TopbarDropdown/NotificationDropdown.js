@@ -28,10 +28,7 @@ class NotificationDropdown extends Component {
     return (
       <React.Fragment>
                         <Dropdown isOpen={this.state.menu} toggle={this.toggle} tag="li" className="d-inline-block">
-                            <DropdownToggle tag="button" className="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown">
-                                <i className="ri-notification-3-line"></i>
-                                <span className="noti-dot"></span>
-                            </DropdownToggle>
+                            
                             <DropdownMenu right className="dropdown-menu dropdown-menu-lg p-0">
                                 <div className="p-3">
                                     <Row className="align-items-center">
