@@ -123,9 +123,10 @@ class Header extends Component {
                                     {/* <img src={logosmlight} alt="" height="22"/> */}
                                 </span>
                                 <span className="logo-lg">
-                                    <img src={armylogo} alt="" height="60"/>
+                                    <img src={armylogo} alt="" height="45"/>
                                 </span>
                             </Link>
+                            <h6>NIGERIAN ARMY</h6>
                         </div>
 
                         

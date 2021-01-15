@@ -21,7 +21,7 @@ class StarterPage extends Component {
                 <div className="page-content">
                     <Container fluid>
 
-                    <Breadcrumbs title="Dashboard" breadcrumbItems={this.state.breadcrumbItems} />
+                    {/* <Breadcrumbs title="" breadcrumbItems={this.state.breadcrumbItems} /> */}
                     
                     </Container> 
                 </div>
