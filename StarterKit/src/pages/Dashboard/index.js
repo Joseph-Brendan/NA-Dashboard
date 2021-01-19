@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { Container } from "reactstrap";
-
-//Import Breadcrumb
-import Breadcrumbs from '../../components/Common/Breadcrumb';
+import { Container, Row, Col, Card, CardBody } from "reactstrap";
 
 class StarterPage extends Component {
     constructor(props) {
@@ -20,9 +17,19 @@ class StarterPage extends Component {
             <React.Fragment>
                 <div className="page-content">
                     <Container fluid>
+                        <Row>
+                          <Col md={3}>
+                            <Card>
+                                <CardBody>
+                                    <div>
+                                        <i className="ri-survey-line" style={{fontSize: "38px", fontWeight: "regular"}}></i>
+                                    </div>
+                                </CardBody>
+                            </Card>
+                          </Col>
+                        </Row>
 
-                    {/* <Breadcrumbs title="" breadcrumbItems={this.state.breadcrumbItems} /> */}
-                    
+
                     </Container> 
                 </div>
             </React.Fragment>

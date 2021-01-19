@@ -106,9 +106,9 @@ class Header extends Component {
       <React.Fragment>
             <header id="page-topbar">
                 <div className="navbar-header">
-                    <div className="d-flex">
+                    <div className="d-flex justify-content-center">
 
-                        <div className="navbar-brand-box">
+                        <div className="navbar-brand-box d-block pt-5">
                             {/* <Link to="#" className="logo logo-dark">
                                 <span className="logo-sm">
                                     <img src={logosmdark} alt="" height="22"/>
@@ -119,16 +119,15 @@ class Header extends Component {
                             </Link> */}
 
                             <Link to="#" className="logo logo-light">
-                                <span className="logo-sm">
+                                <span className="logo-sm d-block text-center">
                                     {/* <img src={logosmlight} alt="" height="22"/> */}
                                 </span>
-                                <span className="logo-lg">
-                                    <img src={armylogo} alt="" height="45"/>
+                                <span className="logo-lg d-block text-center">
+                                    <img src={armylogo} alt="" height="45" style={{margin: "0 auto", width: "auto" }}/>
                                 </span>
                             </Link>
-                            <h6>NIGERIAN ARMY</h6>
+                            <h6 className="text-white text-center">NIGERIAN ARMY</h6>
                         </div>
-
                         
 
                         

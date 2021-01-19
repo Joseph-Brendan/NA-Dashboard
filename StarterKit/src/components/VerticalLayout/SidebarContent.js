@@ -96,114 +96,95 @@ class SidebarContent extends Component {
                             <li>
                                 <Link to="/dashboard" className="waves-effect">
                                     <i className="ri-dashboard-line"></i><span className="badge badge-pill badge-success float-right"></span>
-                                    <span className="ml-1">{this.props.t('Nigerian Army')}</span>
+                                    <span className="ml-1">{this.props.t('Dashboard')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                                <Link to="/board" className=" waves-effect">
+                                    <i className="ri-artboard-2-line"></i>
                                     <span className="ml-1">{this.props.t('Kanban Board')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
+                                <Link to="/calendar" className=" waves-effect">
                                     <i className="ri-calendar-2-line"></i>
                                     <span className="ml-1">{this.props.t('Calendar')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                                <Link to="/notifications" className=" waves-effect">
+                                    <i className="ri-notification-line"></i>
                                     <span className="ml-1">{this.props.t('Notifications')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                              <Link to="/mail" className=" waves-effect">
+                                <i className="ri-mail-line"></i>
+                                <span className="ml-1">{this.props.t('Mail')}</span>
+                              </Link>
+                            </li>
+
+                            <li>
+                                <Link to="/integrations" className=" waves-effect">
+                                    <i className="ri-database-2-line"></i>
                                     <span className="ml-1">{this.props.t('API/Integrations')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                                <Link to="/location" className=" waves-effect">
+                                    <i className="ri-map-pin-line"></i>
                                     <span className="ml-1">{this.props.t('Location')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                                <Link to="/authentication" className=" waves-effect">
+                                    <i className="ri-shield-user-line"></i>
                                     <span className="ml-1">{this.props.t('Authentication')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                                <Link to="audit" className=" waves-effect">
+                                    <i className="ri-edit-box-line"></i>
                                     <span className="ml-1">{this.props.t('General Auditing')}</span>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link to="#" className=" waves-effect">
-                                    {/* <i className="ri-calendar-2-line"></i> */}
+                                <Link to="/settings" className=" waves-effect">
+                                    <i className="ri-settings-line"></i>
                                     <span className="ml-1">{this.props.t('Settings')}</span>
                                 </Link>
                             </li>
-
-                            <li>
-                                <Link to="#" className=" waves-effect">
-                                    <i className="ri-chat-1-line"></i>
-                                    <span className="ml-1">{this.props.t('Chat')}</span>
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link to="/#" className="has-arrow waves-effect">
-                                    <i className="ri-store-2-line"></i>
-                                    <span className="ml-1">{this.props.t('Ecommerce')}</span>
-                                </Link>
-                                <ul className="sub-menu" aria-expanded="false">
-                                    <li><Link to="#">{this.props.t('Products')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Product Detail')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Orders')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Customers')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Cart')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Checkout')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Shops')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Add Product')}</Link></li>
-                                </ul>
-                            </li>
-                
-                            <li>
-                                <Link to="/#" className="has-arrow waves-effect">
-                                    <i className="ri-mail-send-line"></i>
-                                    <span className="ml-1">{this.props.t('Email')}</span>
-                                </Link>
-                                <ul className="sub-menu" aria-expanded="false">
-                                    <li><Link to="#">{this.props.t('Inbox')}</Link></li>
-                                    <li><Link to="#">{this.props.t('Read Email')}</Link></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <Link to="#" className=" waves-effect">
-                                    <i className="ri-artboard-2-line"></i>
-                                    <span className="ml-1">{this.props.t('Kanban Board')}</span>
-                                </Link>
-                            </li>
-
                         </ul>
                     </div>
             </React.Fragment>
         );
     }
 }
+
+// <li>
+//     <Link to="/#" className="has-arrow waves-effect">
+//         <i className="ri-store-2-line"></i>
+//         <span className="ml-1">{this.props.t('Ecommerce')}</span>
+//     </Link>
+//     <ul className="sub-menu" aria-expanded="false">
+//         <li><Link to="#">{this.props.t('Products')}</Link></li>
+//         <li><Link to="#">{this.props.t('Product Detail')}</Link></li>
+//         <li><Link to="#">{this.props.t('Orders')}</Link></li>
+//         <li><Link to="#">{this.props.t('Customers')}</Link></li>
+//         <li><Link to="#">{this.props.t('Cart')}</Link></li>
+//         <li><Link to="#">{this.props.t('Checkout')}</Link></li>
+//         <li><Link to="#">{this.props.t('Shops')}</Link></li>
+//         <li><Link to="#">{this.props.t('Add Product')}</Link></li>
+//     </ul>
+// </li>
 
 const mapStatetoProps = state => {
     return { ...state.Layout };
