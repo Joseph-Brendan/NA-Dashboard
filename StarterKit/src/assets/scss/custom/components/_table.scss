@@ -1,6 +1,10 @@
 // 
 // _table.scss
-// 
+//
+table {
+  width: 100%;
+  font-weight: $font-weight-bold;
+}
 
 .table {
   th {
@@ -18,5 +22,16 @@
 .table-nowrap {
   th, td {
     white-space: nowrap;
+  }
+}
+
+.small-datatable {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+
+  tr {
+    td {
+      padding: 5px 5px 5px 15px;
+    }
   }
 }
