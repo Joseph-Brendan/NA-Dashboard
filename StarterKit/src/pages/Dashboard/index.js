@@ -48,7 +48,7 @@ class StarterPage extends Component {
                 <Card>
                   <CardBody>
                     <div>
-                      <i className="ri-bar-chart-line" style={{fontSize: "38px", fontWeight: "regular"}}/>
+                      <i className="ri-nurse-line" style={{fontSize: "38px", fontWeight: "regular"}}/>
                       <h6 className="font-weight-bolder">Technicians</h6>
                       <p className="mb-2" style={{fontSize: "12px"}}>Manage Technicians and their maintenance activities
                         on assets</p>
