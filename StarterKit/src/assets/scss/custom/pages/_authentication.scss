@@ -2,62 +2,70 @@
 // authentication.scss
 //
 
-.auth-body-bg{
-    background-color: $card-bg;
+.auth-body-bg {
+  background-color: $card-cap-bg;
+  height: 100%;
 }
 
-.authentication-bg{
-    background-image: url("../../../images/authentication-bg.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    .bg-overlay{
-        background-color: #292626;
-    }
+.authentication-bg {
+  background-image: url("../../../images/authentication-bg.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 
-    @media (max-width: 991px) {
-            display: none;
-    }
+  .bg-overlay {
+    background-color: #292626;
+  }
+
+  @media (max-width: 991px) {
+    display: none;
+  }
 }
 
-.authentication-page-content{
-    height: 100vh;
-    display: flex;
+.authentication-page-content {
+  height: 100vh;
+  display: flex;
 }
 
-.auth-form-group-custom{
-    position: relative;
-    .form-control{
-        height: 60px;
-        padding-top: 28px;
-        padding-left: 60px;
-    }
+.auth-form-group-custom {
+  position: relative;
 
-    label{
-        position: absolute;
-        top: 7px;
-        left: 60px;
-    }
+  .form-control {
+    height: 60px;
+    padding-top: 28px;
+    padding-left: 60px;
+  }
 
-    .auti-custom-input-icon{
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 19px;
-        font-size: 24px;
-        color: $primary;
-    }
+  label {
+    position: absolute;
+    top: 7px;
+    left: 60px;
+  }
+
+  .auti-custom-input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 19px;
+    font-size: 24px;
+    //color: $primary;
+  }
 }
 
-
-
+//.av-invalid {
+//  .auth-form-group-custom {
+//    .auti-custom-input-icon {
+//      top: 38% !important;
+//    }
+//  }
+//}
 
 
 // authentication home icon
 .home-btn {
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    z-index: 9;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  z-index: 9;
 }
 
